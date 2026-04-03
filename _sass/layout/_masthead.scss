@@ -93,10 +93,16 @@
       }
     }
 
+    // Nav links: spread out with generous spacing
+    li:not(.masthead__menu-item--lg):not(#theme-toggle) {
+      padding: 0 2em;
+    }
+
     // Theme toggle on far right
     #theme-toggle {
       flex: 1;
       justify-content: flex-end;
+      padding: 0;
     }
 
     // Active page underline indicator
