@@ -69,3 +69,35 @@
     }
   }
 }
+
+// Center nav links between name (left) and theme toggle (right)
+.greedy-nav {
+  button {
+    display: none !important;
+  }
+
+  .visible-links {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+
+    li {
+      display: flex;
+      align-items: center;
+    }
+
+    .masthead__menu-item--lg {
+      flex: 1;
+    }
+
+    #theme-toggle {
+      flex: 1;
+      justify-content: flex-end;
+    }
+
+    .masthead__menu-item.active > a {
+      border-bottom: 2px solid currentColor;
+      padding-bottom: 2px;
+    }
+  }
+}
