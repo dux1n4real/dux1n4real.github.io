@@ -65,3 +65,24 @@
     font-weight: 700;
   }
 }
+
+.greedy-nav {
+  .visible-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    li {
+      display: flex;
+      align-items: center;
+    }
+
+    .masthead__menu-item--lg {
+      margin-right: auto;
+    }
+
+    #theme-toggle {
+      margin-left: auto;
+    }
+  }
+}
