@@ -77,9 +77,8 @@
       align-items: center;
     }
 
-    // Site title: left-aligned, larger
     .masthead__menu-item--lg {
-      margin-right: auto;
+      flex: 1;
       font-size: 1.4em;
 
       a {
@@ -87,15 +86,14 @@
       }
     }
 
-    // Nav links: evenly spaced in center
-    li:not(.masthead__menu-item--lg):not(#theme-toggle) {
+    #theme-toggle {
       flex: 1;
-      justify-content: center;
+      justify-content: flex-end;
     }
 
-    #theme-toggle {
-      margin-left: auto;
-      flex: none;
+    .masthead__menu-item.active > a {
+      border-bottom: 2px solid currentColor;
+      padding-bottom: 2px;
     }
   }
 }
