@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "dark"
 title                    : "Xin Du"
 title_separator          : "-"
 name                     : &name "Xin Du"

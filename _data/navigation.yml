@@ -9,7 +9,7 @@
 
 # main navigation links
 main:
-  - title: "About"
+  - title: "Home"
     url: /
   - title: "Research"
     url: /research/

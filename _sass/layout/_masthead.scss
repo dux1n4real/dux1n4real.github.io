@@ -77,12 +77,25 @@
       align-items: center;
     }
 
+    // Site title: left-aligned, larger
     .masthead__menu-item--lg {
       margin-right: auto;
+      font-size: 1.4em;
+
+      a {
+        font-size: inherit;
+      }
+    }
+
+    // Nav links: evenly spaced in center
+    li:not(.masthead__menu-item--lg):not(#theme-toggle) {
+      flex: 1;
+      justify-content: center;
     }
 
     #theme-toggle {
       margin-left: auto;
+      flex: none;
     }
   }
 }
