@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Xin Du"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Xin Du"
 description              : &description "PhD Student in Economics, University of Missouri -- Columbia"
 url                      : https://dux1n4real.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Xin Du"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD student in Economics at Mizzou. Passionate about research, basketball, and open to anything!"
   location         : "Columbia, MO"
   employer         : "University of Missouri -- Columbia"
   uri              : # URL
@@ -41,12 +41,11 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "dux1n4real"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
