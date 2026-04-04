@@ -8,11 +8,11 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
+$background                 : #111111;
+$background-light           : mix(#fff, $background, 15%);
+$background-lighter         : mix(#fff, $background, 25%);
+$text                       : #f0ece3;
+$link                       : #f4a261;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
 
@@ -51,4 +51,15 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+
+    .fa-github,
+    .fa-github-alt,
+    .fa-github-square {
+        color: #{$text};
+    }
+
+    ::selection {
+        background: #{$link};
+        color: #111111;
+    }
 }
