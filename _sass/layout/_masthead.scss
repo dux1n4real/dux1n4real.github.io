@@ -31,7 +31,7 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: 90vw;
     }
 
     nav {
@@ -70,14 +70,15 @@
   }
 }
 
-// Center nav links between name (left) and theme toggle (right)
+// Nav layout: name left, links centered, toggle right
 .greedy-nav {
   button {
     display: none !important;
   }
 
   .visible-links {
-    display: flex !important;
+    display: grid !important;
+    grid-template-columns: 1fr auto auto auto 1fr;
     align-items: center;
     width: 100%;
 
@@ -87,12 +88,11 @@
     }
 
     .masthead__menu-item--lg {
-      flex: 1;
+      justify-self: start;
     }
 
     #theme-toggle {
-      flex: 1;
-      justify-content: flex-end;
+      justify-self: end;
     }
 
     .masthead__menu-item.active > a {
